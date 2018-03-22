@@ -7,6 +7,11 @@ import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.enums.IdType;
 
+/**
+ * 基准Entity
+ * 
+ * @author mengwei
+ */
 public class BaseEntity implements Serializable {
 
 	private static final long serialVersionUID = -8544619995376725144L;

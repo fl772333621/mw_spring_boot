@@ -13,6 +13,14 @@ import org.springframework.context.annotation.Primary;
 
 import com.alibaba.druid.pool.DruidDataSource;
 
+/**
+ * <b>Druid配置信息</b>
+ * <p>
+ * 需要读取配置文件内容进行初始化
+ * </p>
+ * 
+ * @author mengwei
+ */
 @Configuration
 public class DruidDBConfig {
 	private Logger logger = LoggerFactory.getLogger(DruidDBConfig.class);

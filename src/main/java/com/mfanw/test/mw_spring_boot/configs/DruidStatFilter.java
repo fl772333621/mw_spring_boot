@@ -5,6 +5,11 @@ import javax.servlet.annotation.WebInitParam;
 
 import com.alibaba.druid.support.http.WebStatFilter;
 
+/**
+ * <b>Druid配置Filter</b>
+ * 
+ * @author mengwei
+ */
 @WebFilter(filterName = "druidWebStatFilter", //
 		urlPatterns = "/*", //
 		initParams = { //
