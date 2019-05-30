@@ -8,7 +8,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @ServletComponentScan // 添加该行才会主动去搜索servlet和filter配置
 public class MwSpringBootApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MwSpringBootApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MwSpringBootApplication.class, args);
+    }
 }

@@ -4,13 +4,12 @@ import com.mfanw.test.mw_spring_boot.entity.UserEntity;
 
 /**
  * 用户操作Biz
- * 
- * @author mengwei
  *
+ * @author mengwei
  */
 public interface IUserBiz {
 
-	public void insert(UserEntity entity);
+    public void insert(UserEntity entity);
 
-	public void get(Integer id);
+    public void get(Integer id);
 }
